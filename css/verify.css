@@ -1,0 +1,60 @@
+/* ===RESET=== */
+
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+}
+
+/* ===COMPONENTS=== */
+
+.btn {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: .5em 1em; 
+  color: white;
+  background:#4E1E86 ;
+  border-radius: 4px;
+  border: none;
+}
+
+
+/* ===MAIN=== */
+section, #verifyInput {
+  border-radius: 8px;
+
+}
+p, .codeInput, h3 {
+    text-align: center;
+}
+
+section {
+    align-items: center;
+    max-width: 680px;
+    background: #e7eaee;
+    margin: 0 auto;
+    padding: 4em 7.25em;
+}
+.content {
+        display: flex;
+    flex-direction: column;
+
+}
+
+.codeInput {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+#verifyInput {
+    width: 60px;
+    height: 90px;
+
+}
+
+.resendBtn {
+    background: transparent;
+    color: black;
+    border: 1px solid #4E1E86 ;
+}
