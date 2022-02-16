@@ -37,6 +37,9 @@ section, #verifyInput {
 p, .codeInput, h3 {
     text-align: center;
 }
+.content h3 {
+    font-weight: 600;
+}
 
 section {
     align-items: center;
@@ -53,6 +56,7 @@ section {
 
 .codeInput {
     display: flex;
+    gap: 1em;
     justify-content: space-between;
     margin-bottom: 1em;
 }
