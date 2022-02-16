@@ -9,7 +9,7 @@
 
 
 /* Add padding to container elements */
-.container {
+.signIn {
   max-width: 676px;
   display: flex;
   margin: 0 auto;
@@ -95,21 +95,15 @@ button:hover {
 }
 
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
 /* https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */ 
 h3 {
-   width: 100%; 
-   text-align: center; 
-   border-bottom: 1px solid #A8A6A7; 
-   line-height: 0.1em;
-   margin: 0 0 1em; 
-   font-weight: 500;
-
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #A8A6A7; 
+  line-height: 0.1em;
+  margin: 0 0 1em; 
+  font-weight: 500;
+  
 } 
 
 .or {
@@ -119,11 +113,24 @@ h3 {
 
 /* change the color so that it blends with the background color*/
 h3 span { 
-    background:#E7EAEE; 
-    padding:0 10px; 
+  background:#E7EAEE; 
+  padding:0 10px; 
 }
 
 h4 {
   font-weight: 400;
   color:#A8A6A7 ;
 }
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+

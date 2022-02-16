@@ -61,3 +61,8 @@ section {
     color: black;
     border: 1px solid #4E1E86 ;
 }
+
+.resendBtn:hover {
+    color: white;
+    opacity: .7;
+}
