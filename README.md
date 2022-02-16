@@ -1,4 +1,4 @@
-# Welcome to our craigstlist-redesign repo!
+# Welcome to our craigslist-redesign repo!
 We are a group of three UX/UI designers and developers taking on the challenge of redesigning Craigslist. 
 In its existing design, Craigslist is a 90s themed website. User research shows that this design makes users wary of using Craigslist, citing it as "unsafe" or "sketchy." 
 
