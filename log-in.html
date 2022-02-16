@@ -3,34 +3,38 @@
     <head>
         <link rel="stylesheet" href="fonts/fonts.css">
         <link rel="stylesheet" href="css/log-in.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!-- Navigation bar -->
-        <!-- <div class="nav">
+        <nav id="nav">
             <div class="topNav">
-                <a href="index.html" class="active logo"><img src="/img/logo.svg"></a>
-                <button class="listingBtn">+ listing</button>
-                <a href="log-in.html"><p class="headerP">log-in/sign-up</p></a>
+                <a href="index.html" class="active brand"><img src="/img/logo.svg"></a>
+                <div class="leftElements">
+                    <button class="btn">+ listing</button>
+                    <a href="log-in.html" class="loginLink"><p class="headerP">log-in/sign-up</p></a>
+                </div>
             </div>
-            <div class=“bottomNav”>
-                <a href="#forsale" class=“nav”>for sale</a>
-                <a href="#housing" class=“nav”>housing</a>
-                <a href="#jobs" class=“nav”>jobs</a>
-                <a href="#gigs" class=“nav”>gigs</a>
-                <a href="#resumes" class=“nav”>resumes</a>
-                <a href="#services" class=“nav”>services</a>
-                <a href="#community" class=“nav”>community</a>
-                <a href="#forums" class=“nav”>discussion forums</a>
-                <a href="#aboutus" class=“nav”>about us</a>
+            <div class="bottomNav">
+                <ul class="navMenu">
+                    <li class="menuItem"><a href="#for-sale">for sale</a></li>
+                    <li class="menuItem"><a href="#housing">housing</a></li>
+                    <li class="menuItem"><a href="#jobs">jobs</a></li>
+                    <li class="menuItem"><a href="#gigs">gigs</a></li>
+                    <li class="menuItem"><a href="#services">services</a></li>
+                    <li class="menuItem"><a href="#community">community</a></li>
+                    <li class="menuItem"><a href="#forum">discussion forums</a></li>
+                    <li class="menuItem"><a href="#footer">about us</a></li>
+                </ul>
             </div>
-        </div> -->
+        </nav>
         <!-- Form -->
         <main> 
             <form class="signIn">
                 <h3><span>sign in with</span></h3>
                 <span><img class="socialIcon" src="img/fb-logo.png" alt="FB"><img class="socialIcon" src="img/apple-logo.png" alt="Apple"> <img class="socialIcon" src="img/google-logo.png" alt="Google"></span>
-                <input type="text" placeholder="Email" name="email" required>
-                <input type="password" placeholder="Password" name="psw" required>
+                <input type="text" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="psw">
                 <button type="submit" class="btn loginBtn">log in</button>
                 <h3 class="or"><span>or</span></h3>
                 <h4>sign up with your email or password</h4><br>
@@ -43,31 +47,33 @@
         </main>
 
         <!-- Footer -->
-        <!-- <footer>
-            <img src="img/logo-footer.svg">
-            <div class=“footerText”>
-                <h5>help, faq, abuse, legal</h5>
-                <h5>avoid scams & fraud</h5>
-                <h5>personal safety tips</h5>
-            </div>
-            <div class=“footerText”>
-                <h5>terms of use</h5>
-                <h5>privacy policy</h5>
-                <h5>system status</h5>
-                <h5>about craigslist</h5>
-                <h5>craigslist is hiring in sf</h5>
-                <h5>craigslist open source</h5>
-            </div>
-            <div class=“footerText”>
-                <h5>craigslist blog</h5>
-                <h5>best-of-craigslist</h5>
-                <h5>”craigslist joe”</h5>
-                <h5>craig newmark philanthropies</h5>
-            </div>
-            <div class=“footerText”>
-                <h5>download craigslist app</h5>
-                <img src="/img/apps.svg">
-            </div>
-        </footer> -->
+        <footer id="footer">
+            <div class="footerContainer">
+                <img class="footerLogo" src="img/logo-footer.svg">
+                <div class="footerTextContainer">
+                    <h5 class="edit">help, faq, abuse, legal</h5 class="edit">
+                    <h5 class="edit">avoid scams & fraud</h5 class="edit">
+                    <h5 class="edit">personal safety tips</h5 class="edit">
+                </div>
+                <div class="footerTextContainer">
+                    <h5 class="edit">terms of use</h5 class="edit">
+                    <h5 class="edit">privacy policy</h5 class="edit">
+                    <h5 class="edit">system status</h5 class="edit">
+                    <h5 class="edit">about craigslist</h5 class="edit">
+                    <h5 class="edit">craigslist is hiring in sf</h5 class="edit">
+                    <h5 class="edit">craigslist open source</h5 class="edit">
+                </div>
+                <div class="footerTextContainer">
+                    <h5 class="edit">craigslist blog</h5 class="edit">
+                    <h5 class="edit">best-of-craigslist</h5 class="edit">
+                    <h5 class="edit">"craigslist joe"</h5 class="edit">
+                    <h5 class="edit">craig newmark philanthropies</h5 class="edit">
+                </div>
+                <div class="footerTextContainer">
+                    <h5 class="edit">download craigslist app</h5 class="edit">
+                    <img class="footerApps" src="/img/apps.svg">
+                </div>
+            </div> 
+        </footer>
     </body>
 </html>
