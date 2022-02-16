@@ -152,7 +152,8 @@ footer {
   left: 0px;
 }
 .footerContainer {
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   display: flex;
   gap: 38px;
 }
