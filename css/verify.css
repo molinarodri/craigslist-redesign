@@ -16,13 +16,14 @@ input[type=number]::-webkit-outer-spin-button {
 /* ===COMPONENTS=== */
 
 .btn {
-  font-size: 1.125rem;
-  font-weight: 600;
-  padding: .5em 1em; 
-  color: white;
-  background:#4E1E86 ;
-  border-radius: 4px;
-  border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: .5em 1em; 
+    color: white;
+    background:#4E1E86 ;
+    border-radius: 4px;
+    border: none;
 }
 
 .btn:hover {
@@ -31,7 +32,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* ===MAIN=== */
 section, #verifyInput {
-  border-radius: 8px;
+    border-radius: 8px;
 }
 .verifyInput {
     font-size: 28px;

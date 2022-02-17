@@ -63,7 +63,7 @@ button {
   cursor: pointer;
 }
 .btn:hover {
-  box-shadow: #8744D4;
+  background: purple;
 }
 
 
@@ -234,6 +234,9 @@ input[type=text] {
   margin-right:16px;
   padding: 4px 12px;  
   cursor: pointer;
+}
+.filterButton:hover {
+  filter: drop-shadow(0px 6px 12px rgba(0, 0, 0, 0.1));
 }
 main {
   display: flex;
