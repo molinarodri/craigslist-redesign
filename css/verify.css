@@ -32,7 +32,10 @@ input[type=number]::-webkit-outer-spin-button {
 /* ===MAIN=== */
 section, #verifyInput {
   border-radius: 8px;
-
+}
+.verifyInput {
+    font-size: 28px;
+    text-align: center;
 }
 p, .codeInput, h3 {
     text-align: center;
