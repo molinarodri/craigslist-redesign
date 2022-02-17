@@ -7,3 +7,5 @@ We redesigned Craigslist to be more inviting and easy to navigate. Please see ou
 
 # Development
 We deployed craigslist-redesign as a three page glimpse into what we think would enhance the Craigslist experience. This website was developed with HTML, CSS and Flickity JS slider library. Please see https://flickity.metafizzy.co/ for more information about Flickity.
+
+Deployed at https://molinarodri.github.io/craigstlist-redesign/
